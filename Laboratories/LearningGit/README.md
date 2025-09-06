@@ -7,15 +7,15 @@ Haider Andres Rodriguez Maldonado
 ## PARTE II (Trabajo en parejas).
 ### Creacion Repositorio Compartido
 
-![Repositorio](/Capturas/Captura1.png)
-![Contribuidores](/Capturas/Captura2.png)
+![Repositorio](Capturas/Captura1.png)
+![Contribuidores](Capturas/Captura2.png)
 
 ### Editar el archivo README.md al mismo tiempo
 
 Al editar el archivo README.md y intentar subirlo al repositorio al mismo tiempo, uno de los dos lograba subir el cambio mientras que al otro le aparecia un error al intentar hacer el push debido a que Git detectará que el repositorio remoto ha cambiado (debido al push exitoso del primer usuario).
 
-![Fallo Github](/Capturas/Captura3.png)
-![Fallo Consola](/Capturas/Captura4.png)
+![Fallo Github](Capturas/Captura3.png)
+![Fallo Consola](Capturas/Captura4.png)
 
 ### Resolucion de conflictos
 
@@ -26,11 +26,11 @@ git pull origin main
 
 Durante el pull, Git intentará fusionar los cambios automáticamente, pero si ambos usuarios editaron las mismas líneas, Git generará un conflicto de fusión. El archivo README.md tendrá secciones marcadas como:
 
-![Resolucion VS](/Capturas/Captura5.png)
+![Resolucion VS](Capturas/Captura5.png)
 
 Aquí, debemos editar el archivo manualmente para combinar o elegir entre los cambios (aqui combinamos los cambios).
 
-![Cambios README](/Capturas/Captura6.png)
+![Cambios README](Capturas/Captura6.png)
 
 Finalmente, el usuario puede intentar hacer el push nuevamente.
 
@@ -54,25 +54,25 @@ Es una solicitud de fusión de cambios desde una rama de trabajo a otra rama (ge
 
 ### Creacion de Ramas
 
-![Creacion Ramas](/Capturas/Captura7.png)
+![Creacion Ramas](Capturas/Captura7.png)
 
 ### Cambios y Realizacion Pull Request
 
 Se realizan los cambios en el README.md en ambas ramas y lanzamos el pull request.
 
-![Pull Requests](/Capturas/Captura8.png)
+![Pull Requests](Capturas/Captura8.png)
 
 Revisamos y aceptamos el primer pull request, posteriormente la rama de desarrollo se borra.
 
-![Pull Requests](/Capturas/Captura9.png)
-![Pull Requests](/Capturas/Captura10.png)
+![Pull Requests](Capturas/Captura9.png)
+![Pull Requests](Capturas/Captura10.png)
 
 Ahora intentamos revisar y hacer el pull request, como en la rama main ya hay cambios que en el pull no se encuentran, debemos modificar el pull para poderlo aceptar y que no genere conflictos.
 
-![Pull Requests](/Capturas/Captura11.png)
-![Pull Requests](/Capturas/Captura12.png)
+![Pull Requests](Capturas/Captura11.png)
+![Pull Requests](Capturas/Captura12.png)
 
 Una vez editado el pull request podremos aceptarlo y finalmente la rama se deberia borrar.
 
-![Pull Requests](/Capturas/Captura13.png)
-![Pull Requests](/Capturas/Captura14.png)
+![Pull Requests](Capturas/Captura13.png)
+![Pull Requests](Capturas/Captura14.png)
